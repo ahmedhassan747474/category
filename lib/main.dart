@@ -39,6 +39,9 @@ class _MyAppState extends State<MyApp> {
           return false;
         } if (_filters['vegetarian'] && !meal.isVegetarian) {
           return false;
+
+
+          
         }
         return true;
       }).toList();
